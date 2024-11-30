@@ -5,6 +5,13 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
+    <label>
+      Material 3
+      <md-checkbox checked></md-checkbox>
+    </label>
+
+    <md-outlined-button>Back</md-outlined-button>
+    <md-filled-button>Next</md-filled-button>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
